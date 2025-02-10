@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<modDesc descVersion="7">
+    <author>Morc @ 370network</author>
+    <version>v0.1.0</version>
+    <title>
+        <en>reGIANTS Bootstrapper - Scripts</en>
+    </title>
+    <description>
+        <en>
+<![CDATA[Filler counterpart for the reGIANTS Bootstrapper DLC
+Stores your bootstrapped scripts.]]>
+		</en>
+	</description>
+	<iconFilename>store_reGIANTSBootstrapper.png</iconFilename>
+</modDesc>

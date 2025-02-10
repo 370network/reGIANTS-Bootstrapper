@@ -1,0 +1,313 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<modDesc descVersion="7">
+    <author>Morc @ 370network</author>
+    <version>v0.1.0</version>
+    <title>
+        <en>reGIANTS Bootstrapper - DLC</en>
+    </title>
+    <description>
+        <en>
+<![CDATA[Let your scripts get bootstrapped at a global level.
+Made possible with the help of the LS Mods Community (https://komeo.xyz/ls2009mods)]]>
+		</en>
+	</description>
+    <multiplayer supported="true"/>
+	<iconFilename>store_reGIANTSBootstrapper.png</iconFilename>
+    <extraSourceFiles>
+        <sourceFile filename="../../mods/reGIANTS/Bootstrapper.lua"/>
+    </extraSourceFiles>
+
+<!-- padding padding padding padding padding padding padding padding padding padding padding padding padding padding padding padding padding padding padding padding padding padding padding padding padding padding padding padding padding padding padding padding padding padding padding padding padding padding padding padding padding padding padding padding padding padding padding padding padding padding padding padding padding padding padding padding padding padding padding padding padding padding padding padding padding padding padding padding padding padding padding padding padding padding padding padding padding padding padding padding padding padding padding padding padding padding padding padding padding padding padding padding padding padding padding padding padding padding padding padding padding padding padding padding padding padding padding padding padding padding padding padding padding padding padding padding padding padding padding padding padding padding padding padding padding padding padding -->
+<!-- padding padding padding padding padding padding padding padding padding padding padding padding padding padding padding padding padding padding padding padding padding padding padding padding padding padding padding padding padding padding padding padding padding padding padding padding padding padding padding padding padding padding padding padding padding padding padding padding padding padding padding padding padding padding padding padding padding padding padding padding padding padding padding padding padding padding padding padding padding padding padding padding padding padding padding padding padding padding padding padding padding padding padding padding padding padding padding padding padding padding padding padding padding padding padding padding padding padding padding padding padding padding padding padding padding padding padding padding padding padding padding padding padding padding padding padding padding padding padding padding padding padding padding padding padding padding padding -->
+<!-- padding padding padding padding padding padding padding padding padding padding padding padding padding padding padding padding padding padding padding padding padding padding padding padding padding padding padding padding padding padding padding padding padding padding padding padding padding padding padding padding padding padding padding padding padding padding padding padding padding padding padding padding padding padding padding padding padding padding padding padding padding padding padding padding padding padding padding padding padding padding padding padding padding padding padding padding padding padding padding padding padding padding padding padding padding padding padding padding padding padding padding padding padding padding padding padding padding padding padding padding padding padding padding padding padding padding padding padding padding padding padding padding padding padding padding padding padding padding padding padding padding padding padding padding paddin-->
+<!-- padding padding padding padding padding padding padding padding padding padding padding padding padding padding padding padding padding padding padding padding padding padding padding padding padding padding padding padding padding padding padding padding padding padding padding padding padding padding padding padding padding padding padding padding padding padding padding padding padding padding padding padding padding padding padding padding padding padding padding padding padding padding padding padding padding padding padding padding padding padding padding padding padding padding padding padding padding padding padding padding padding padding padding padding padding padding padding padding padding padding padding padding padding padding padding padding padding padding padding padding padding padding paddin-->
+
+    <!-- <specializations>
+		<specialization name="fertilizerTrailer" className="FertilizerTrailer" filename="fertilizerTrailer/FertilizerTrailer.lua"/>
+		<specialization name="articulatedAxis" className="ArticulatedAxis" filename="lizard/ArticulatedAxis.lua"/>
+		<specialization name="bunkerSiloCompacter" className="BunkerSiloCompacter" filename="BunkerSiloCompacter.lua"/>
+		<specialization name="newShovel" className="Shovel" filename="Shovel.lua"/>
+		<specialization name="skinnedVehicle" className="SkinnedVehicle" filename="SkinnedVehicle.lua"/>
+		<specialization name="manureBarrel" className="ManureBarrel" filename="ManureBarrel.lua"/>
+		<specialization name="wheelLoader" className="WheelLoader" filename="WheelLoader.lua"/>
+    </specializations>
+
+    <vehicleTypes>
+        <type name="fertilizerTrailer" className="Vehicle" filename="$dataS/scripts/vehicles/Vehicle.lua">
+            <specialization name="attachable" />
+            <specialization name="animatedVehicle" />
+            <specialization name="cylindered" />
+            <specialization name="fillable" />
+            <specialization name="sprayer" />
+            <specialization name="fertilizerTrailer" />
+        </type>
+		<type name="silageFork" className="Vehicle" filename="$dataS/scripts/vehicles/Vehicle.lua">
+			<specialization name="attachable" />
+            <specialization name="animatedVehicle" />
+			<specialization name="mouseControlsVehicle" />
+            <specialization name="cylindered" />
+			<specialization name="fillable" />
+			<specialization name="newShovel" />
+		</type>
+		<type name="garantVTL19500" className="Vehicle" filename="$dataS/scripts/vehicles/Vehicle.lua">
+			<specialization name="attachable" />
+			<specialization name="animatedVehicle" />
+			<specialization name="cylindered" />
+			<specialization name="fillable" />
+			<specialization name="sprayer" />
+			<specialization name="skinnedVehicle" />
+			<specialization name="foldable" />
+			<specialization name="manureBarrel" />
+		</type>
+		<type name="articulatedAxis" className="Vehicle" filename="$dataS/scripts/vehicles/Vehicle.lua">
+			<specialization name="motorized" />
+			<specialization name="steerable" />
+			<specialization name="mouseControlsVehicle" />
+			<specialization name="articulatedAxis" />
+			<specialization name="cylindered" />
+			<specialization name="fillable" />
+			<specialization name="honk" />
+            <specialization name="wheelLoader" />
+			<specialization name="bunkerSiloCompacter" />
+			<specialization name="newShovel" />
+		</type>
+    </vehicleTypes>
+
+
+    <inputBindings loadAxes="true">
+        <axis name="AXIS_FRONTLOADER_TOOL2" category="VEHICLE" key1="" key2="" key3="" key4="" button="BUTTON_7" axis="AXIS_3" device="0" invert="false"/>
+    </inputBindings>
+
+    <storeItems>
+        <storeItem>
+            <en>
+                <name>Wind energy converter</name>
+                <description>
+<![CDATA[The wind energy converter can freely be placed on the map.]]>
+                </description>
+				<specs>Capacity: 2,5 MW</specs>
+            </en>
+            <de>
+                <name>Windkraftanlage</name>
+                <description>
+<![CDATA[Diese Windkraftanlage kann frei auf der Karte platziert werden.]]>
+                </description>
+	            <specs>Leistung: 2,5 MW</specs>
+            </de>
+			<fr>
+                <name>Eolienne</name>
+                <description>
+<![CDATA[Cette éolienne peut être placée librement sur la carte.]]>
+                </description>
+	            <specs>Puissance : 2,5 MW</specs>
+            </fr>
+            <image active="wka/store_wka.png"/>
+            <price>1200000</price>
+            <xmlFilename>wka/wkaPlaceable.xml</xmlFilename>
+            <species>placeable</species>
+            <rotation>0</rotation>
+            <section>section_misc</section>
+        </storeItem>
+
+        <storeItem>
+            <en>
+                <name>Solar collector</name>
+                <description>
+<![CDATA[The solar collector can freely be placed on the map.]]>
+                </description>
+				<specs>Capacity: 1kW/m2</specs>
+            </en>
+            <de>
+                <name>Solaranlage</name>
+                <description>
+<![CDATA[Diese Solaranlage kann frei auf der Karte platziert werden.]]>
+                </description>
+	            <specs>Leistung: 1kW/m2</specs>
+            </de>
+            <fr>
+                <name>Panneau solaire</name>
+                <description>
+<![CDATA[Ce panneau solaire peut être placé librement sur la carte.]]>
+                </description>
+	            <specs>Puissance : 1kW/m2</specs>
+            </fr>
+            <image active="solarCollector/store_solarCollector.png"/>
+            <price>125000</price>
+            <xmlFilename>solarCollector/solarCollectorPlaceable.xml</xmlFilename>
+            <species>placeable</species>
+            <rotation>0</rotation>
+            <section>section_misc</section>
+        </storeItem>
+
+        <storeItem>
+            <en>
+                <name>Lizard G 920 Wheel Loader</name>
+                <description>
+<![CDATA[This wheel loader with articulated-frame steering allows you to fill silage into a biogas plant. You can also heave silage or manure onto a trailer. The wheel loader is also usable for compacting the silage inside bunker silos.]]>
+                </description>
+				<specs>Max. power: 190 kW / 259 hp - Loading volume: 10000 l</specs>
+            </en>
+            <de>
+                <name>Lizard G 920 Radlader</name>
+                <description>
+<![CDATA[Der Radlader mit der Knicklenkung ermöglicht es Ihnen, Silage aus einem Fahrsilo in eine BGA zu befördern. Außerdem können Sie auch Silage oder Mist auf einen Anhänger verladen. Der schwere Radlader eignet sich auch ausgezeichnet um die Silage in den Fahrsilos zu verdichten.]]>
+                </description>
+				<specs>Max. Leistung: 190 kW / 259 PS - Ladevolumen: 10000 l</specs>
+            </de>
+            <fr>
+                <name>Chargeur sur roues Lizard G 920</name>
+                <description>
+<![CDATA[Ce chargeur articulé sur roues vous permet de transférer de l'ensilage du silo vers l'usine Biogaz. Vous pouvez également charger de l'ensilage ou du fumier dans une remorque. Le chargeur sur roues peut en outre être utilisé pour tasser l'ensilage dans le silo.]]>
+                </description>
+				<specs>Puissance max. : 190 kW / 259 CV - Capacité : 10000 l</specs>
+            </fr>
+            <rotation>0</rotation>
+            <image active="lizard/store_wheelloader.png"/>
+            <price>120000</price>
+            <xmlFilename>lizard/wheelLoader.xml</xmlFilename>
+            <section>section_misc</section>
+        </storeItem>
+
+        <storeItem>
+            <en>
+                <name>Bergmann TSW 4190 S Manure Spreader</name>
+                <description>
+<![CDATA[The TSW 4190 S spreader consists of a compact frame design in which the upper and lower frames are welded to the sidewalls and rungs to improve rigidity and service life. The body consists of a conical all-steel bin with extra width and a high loading capacity.]]>
+                </description>
+				<specs>Loading volume: 14000 l</specs>
+            </en>
+            <de>
+                <name>Bergmann TSW 4190 S Miststreuer</name>
+                <description>
+<![CDATA[Der Streuwagen TSW 4190 S besteht aus einer kompakten Rahmenkonstruktion, bei der Unter- und Oberrahmen, Seitenwände und Rungen fest miteinander verschweißt sind. Der Aufbau besteht aus einer konisch gefertigten Ganzstahlwanne mit extra breiter Brücke und hoher Ladekapazität.]]>
+                </description>
+				<specs>Ladevolumen: 14000 l</specs>
+            </de>
+            <fr>
+                <name>Epandeur Bergmann TSW 4190 S</name>
+                <description>
+<![CDATA[L'épandeur TSW 4190 S est constitué d'un châssis compact sur lequel les parois supérieures et inférieures sont soudées aux parois latérales et aux barreaux dans le but d'améliorer la rigidité et la durée de vie. Le caisson est constitué d'un coffrage conique en acier renforcé avec élargisseur
+offrant une capacité de charge accrue.]]>
+                </description>
+				<specs>Capacité : 14000 l</specs>
+            </fr>
+            <rotation>0</rotation>
+            <image active="bergmann/store_bergmannTSW4190.png"/>
+            <price>65000</price>
+            <xmlFilename>bergmann/bergmannTSW4190.xml</xmlFilename>
+            <section>section_trailers</section>
+        </storeItem>
+
+        <storeItem>
+            <en>
+                <name>Kotte GARANT VTL 19.500 Slurry Tanker</name>
+                <description>
+<![CDATA[The GARANT VTL 19500 two-axle slurry tanker offers a convenient alternative to single-axle slurry tankers. For large farms and custom farming the tandem model of 19,500 liters capacity met in an optimal way the requirements of economy and efficiency.]]>
+                </description>
+				<specs>Loading volume: 19500 l</specs>
+            </en>
+            <de>
+                <name>Kotte GARANT VTL 19.500 Güllewagen</name>
+                <description>
+<![CDATA[Der GARANT VTL 19500 Tandem Güllewagen bietet eine sinnvolle Alternative zum Einachs-Güllewagen. Für Großbetriebe und Lohnunternehmer erfüllt das Tandem-Modell mit 19.500 Liter Fassungsvermögen in optimaler Weise die Anforderungen an Wirtschaftlichkeit und Effizienz.]]>
+                </description>
+				<specs>Ladevolumen: 19500 l</specs>
+            </de>
+            <fr>
+                <name>Tonne à lisier Kotte GARANT VTL 19.500</name>
+                <description>
+<![CDATA[La tonne à Lisier GARANT VTL 19500 double essieu offre une alternative pratique aux tonnes à lisier simple essieu. Pour les grandes fermes et l'agriculture specialisée, cette tonne d'une capacité de 19 500 litres allie de facon optimale les exigences économiques et d'efficacité.]]>
+                </description>
+				<specs>Capacité : 19500 l</specs>
+            </fr>
+            <rotation>0</rotation>
+            <image active="kotte/store_garantVTL19500.png"/>
+            <price>75000</price>
+            <xmlFilename>kotte/garantVTL19500.xml</xmlFilename>
+            <section>section_trailers</section>
+        </storeItem>
+
+        <storeItem>
+            <en>
+                <name>Deutz Front Loader Silage Fork</name>
+                <description>
+<![CDATA[With the frontloader silage fork you can heave silage from a bunker silo into a biogas bunker. You can also heave silage or manure onto a trailer.]]>
+                </description>
+            </en>
+            <de>
+                <name>Deutz Frontlader Silagezange</name>
+                <description>
+<![CDATA[Mit der Silagezange für den Frontlader können Sie Silage aus einem BGA Fahrsilo entnehmen und dieses direkt in einen BGA Bunker füllen. Außerdem können Sie mit der Silagezange auch Silage oder Mist auf einen Anhänger verladen.]]>
+                </description>
+            </de>
+            <fr>
+                <name>Fourche à ensilage Deutz</name>
+                <description>
+<![CDATA[Avec la fourche à ensilage pour chargeur frontal, vous pouvez charger de l'ensilage d'un silo vers une trémie à Biogaz. Vous pouvez également charger de l'ensilage ou du fumier dans une remorque.]]>
+                </description>
+            </fr>
+            <rotation>180</rotation>
+            <image active="deutz/store_deutzFrontloaderSilageFork.png"/>
+            <price>2000</price>
+            <xmlFilename>deutz/deutzFrontloaderSilageFork.xml</xmlFilename>
+            <section>section_tractors</section>
+        </storeItem>
+
+        <storeItem>
+            <en>
+                <name>Deutz Agrovector Silage Fork</name>
+                <description>
+<![CDATA[With the agrovector silage fork you can heave silage from a bunker silo into a biogas bunker. You can also heave silage or manure onto a trailer.]]>
+                </description>
+            </en>
+            <de>
+                <name>Deutz Agrovector Silagezange</name>
+                <description>
+<![CDATA[Mit der Silagezange für den Agrovector Teleskoplader können Sie Silage aus einem BGA Fahrsilo entnehmen und dieses direkt in einen BGA Bunker füllen. Außerdem können Sie mit der Silagezange auch Silage oder Mist auf einen Anhänger verladen.]]>
+                </description>
+            </de>
+            <fr>
+                <name>Fourche à ensilage pour Deutz Agrovector</name>
+                <description>
+<![CDATA[Avec la fourche à ensilage pour Agrovector, vous pouvez charger de l'ensilage d'un silo vers une trémie à Biogaz. Vous pouvez également charger de l'ensilage ou du fumier dans une remorque.]]>
+                </description>
+            </fr>
+            <rotation>180</rotation>
+            <image active="deutz/store_deutzAgrovectorSilageFork.png"/>
+            <price>2200</price>
+            <xmlFilename>deutz/deutzAgrovectorSilageFork.xml</xmlFilename>
+            <section>section_tractors</section>
+        </storeItem>
+
+        <storeItem>
+            <en>
+                <name>Mobile fertilizer &amp; water tank</name>
+                <description>
+<![CDATA[With this mobile fertilizer tank you can refill your fertilizer tanks directly on the field. This saves you the way to the fertilizer station and you can work more efficiently.]]>
+                </description>
+				<specs>Loading volume: 12000 l</specs>
+            </en>
+            <de>
+                <name>Mobiler Dünger- &amp; Wassertank</name>
+                <description>
+<![CDATA[Mit diesem mobilen Dünger- und Wassertank können Sie Spritzen direkt auf dem Feld nachfüllen. So ersparen Sie sich den Weg zur Füllstation beim Hof und können effizienter arbeiten.]]>
+                </description>
+				<specs>Ladevolumen: 12000 l</specs>
+            </de>
+            <fr>
+                <name>Cuve à engrais et eau mobile</name>
+                <description>
+<![CDATA[Avec cette cuve à engrais mobile, vous pouvez remplir à nouveau la cuve de votre pulvérisateur directement au champ. Cela vous permettra d'économiser un trajet jusqu'à la cuve de la ferme et de travailler efficacement.]]>
+                </description>
+				<specs>Capacité : 12000 l</specs>
+            </fr>
+            <rotation>0</rotation>
+            <image active="fertilizerTrailer/store_fertilizerTrailer.png"/>
+            <price>12000</price>
+            <xmlFilename>fertilizerTrailer/fertilizerTrailer.xml</xmlFilename>
+            <section>section_trailers</section>
+        </storeItem>
+
+    </storeItems>-->
+
+</modDesc>
